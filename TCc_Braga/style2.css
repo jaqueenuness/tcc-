@@ -1,0 +1,110 @@
+/* style2.css */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+#produtos {
+  float: left;
+  width: 60%;
+  margin: 20px;
+}
+
+#produtos h2 {
+  border-bottom: 2px solid #333;
+}
+
+#produtos ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#produtos li {
+  margin: 10px 0;
+}
+
+#produtos .product-container {
+  display: inline-block;
+  width: 45%;
+  background-color: #fff;
+  padding: 20px;
+  margin: 10px;
+  box-sizing: border-box;
+}
+
+#produtos .product {
+  text-align: center;
+}
+
+#produtos .product img {
+  max-width: 100%;
+  height: auto;
+}
+
+#produtos .product h2 {
+  color: #333;
+}
+
+#produtos .product p {
+  color: #666;
+}
+
+#produtos .product .price {
+  font-weight: bold;
+  color: #ff6600;
+}
+
+#produtos .product form {
+  margin-top: 10px;
+}
+
+#carrinho {
+  float: left;
+  width: 35%;
+  margin: 20px;
+  background-color: #fff;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+#carrinho h2 {
+  border-bottom: 2px solid #333;
+}
+
+#carrinho ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#carrinho li {
+  margin: 10px 0;
+}
+
+#carrinho button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+#carrinho button:hover {
+  background-color: #555;
+}
+
+#carrinho form {
+  display: flex;
+  margin-top: 10px;
+}
+
+#carrinho form input,
+#carrinho form button {
+  margin-right: 10px;
+}
+
+#carrinho form label {
+  line-height: 30px;
+}

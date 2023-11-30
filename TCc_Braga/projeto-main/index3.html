@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Carrinho de Compras</title>
+  <link rel="stylesheet" type="text/css" href="style2.css">
+</head>
+<body>
+  <h1>Carrinho de Compras</h1>
+
+  <div id="produtos">
+    <h2>Produtos Disponíveis</h2>
+    <ul>
+      <li>
+        <span>Produto 1</span>
+        <button onclick="adicionarProduto(1)">Adicionar ao Carrinho</button>
+      </li>
+      <li>
+        <span>Produto 2</span>
+        <button onclick="adicionarProduto(2)">Adicionar ao Carrinho</button>
+      </li>
+      <li>
+        <span>Produto 3</span>
+        <button onclick="adicionarProduto(3)">Adicionar ao Carrinho</button>
+      </li>
+    </ul>
+  </div>
+
+  <div id="carrinho">
+    <h2>Seu Carrinho</h2>
+    <ul id="lista-carrinho">
+    </ul>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

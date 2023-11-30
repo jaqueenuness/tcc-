@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<!-- saved from url=(0109)file:///home/escola/Documentos/tcc%20hengon%20silver/Nova%20pasta/imglogin_files/custom_background_image.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+    <style>
+      html,
+      body,
+      #image,
+      #gradient {
+        height: 100%;
+        width: 100%;
+      }
+
+      #image,
+      #gradient {
+        position: fixed;
+        top: 0;
+      }
+
+      body {
+        margin: 0;
+        opacity: 0;
+        transition: opacity 700ms;
+      }
+
+      body[shown] {
+        opacity: 1;
+      }
+
+      #image {
+        background-image: url(https://lh4.googleusercontent.com/proxy/c2SYjcBfLkSPyMg8EDth3N-cu46pf3tEfs_NpN3xed-uI5mD8LvKgWM0S92jtMc9s7AHNjHshb1_0RYmRg1jqT1Y-tLyWOSScebY=w3840-h2160-p-k-no-nd-mv);
+        background-position: center center;
+        background-repeat: no-repeat no-repeat;
+        background-size: cover;
+      }
+
+      #gradient {
+        background: radial-gradient(transparent 50%, black),
+            linear-gradient(transparent, black);
+        display: inherit;
+        opacity: .2;
+      }
+    </style>
+  </head>
+  <body shown="">
+    <script src="chrome-untrusted://new-tab-page/background_image.js"></script>
+    <!-- The img tag purely exists to capture the load event. -->
+    <img src="./img_files/unnamed.jpg" onload="onImageLoad()" hidden="">
+    <div id="image"></div>
+    <div id="gradient"></div>
+  
+
+</body></html>
